@@ -1,0 +1,32 @@
+import {
+  Bold,
+  Italic,
+  Strikethrough,
+  Code,
+  RemoveFormatting,
+  Heading1,
+  Heading2,
+  Heading3,
+  List,
+  ListOrdered,
+  Quote,
+  FileCode,
+  Minus,
+  LucideIcon,
+} from 'lucide-react';
+
+export const iconMap: Record<string, LucideIcon> = {
+  Bold,
+  Italic,
+  Strikethrough,
+  Code,
+  RemoveFormatting,
+  Heading1,
+  Heading2,
+  Heading3,
+  List,
+  ListOrdered,
+  Quote,
+  FileCode,
+  Minus,
+};
